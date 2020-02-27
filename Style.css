@@ -1,0 +1,238 @@
+body, html{
+    height: 100%;
+    margin:0;
+    overflow: hidden;
+}
+
+.background {
+    height: 100%;
+}
+
+#backhome {
+    background-color: greenyellow;
+}
+
+#backcool {
+    background-color: red;
+}
+
+#backguy {
+    background-color: black;
+}
+
+#winXP {
+    z-index: 0;
+    position: absolute;
+    content: url("img/Bliss_(Windows_XP).png");
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 663px;
+    margin-top: -331.5px;
+    margin-left: -450px;
+}
+
+#taskbar {
+    position: absolute;
+    content: url("img/windows-xp-taskbar-png-6.png");
+    top: 51%;
+    left: 50%;
+    width: 900px;
+    height: 657px;
+    margin-top: -331.5px;
+    margin-left: -450px;
+}
+#guy1 {
+    content: url("img/guy.png");
+    left: 5px;
+    top: 100px;
+    position: absolute;
+    width: 25%;
+}
+
+#guy2 {
+    content: url("img/guy.png");
+    transform: scaleX(-1);
+    right: 5px;
+    top: 100px;
+    position: absolute;
+    width: 25%;
+}
+
+#candle1 {
+    content: url("img/candle.gif");
+    bottom: 0;
+    left: -30px;
+    position: absolute;
+}
+
+#candle2 {
+    content: url("img/candle.gif");
+    transform: scaleX(-1);
+    bottom: 0;
+    right: -30px;
+    position: absolute;
+}
+
+#herotext {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    color: red;
+}
+
+#header {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+#windowbar {
+    height: 30px;
+    width: 60%;
+    background: transparent url("img/window_bar.png") repeat-x 0 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#guyfieri {
+    position: absolute;
+    content: url("img/l0vuax-l0vtw5guyfieriphoto1white.jpg");
+    height: 675px;
+    width: 535px;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+#windowbutton {
+    background: transparent url("img/window_buttons.png") no-repeat 0 0;
+    height: 30px;
+    width: 81px;
+    display: inline-block;
+    float: right;
+}
+
+#windowbar span {
+    background: transparent url("img/window_corners.png");
+    height: 30px;
+    width: 20px;
+    display: inline-block;
+    float: left;
+
+}
+
+table, th, td {
+    margin-top: -6px;
+    background: #ece9d8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 60%;
+    border: 3px solid #0732d9;
+}
+
+button {
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+*{
+    cursor: crosshair;
+}
+
+.tab{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    bottom: 90px;
+    top: 285px;
+    overflow: hidden;
+}
+
+.innertext {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    color: blue;
+}
+
+.innertext::-webkit-scrollbar {
+    display: none;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+*:active {
+    animation: animate 0.45s;
+}
+
+@keyframes animate{
+    0%{
+        cursor: url("keyframes/frame_00_delay-0.1s.gif") 46 64, auto;
+    }
+    6.25%{
+        cursor: url("keyframes/frame_01_delay-0.1s.gif") 46 64, auto;
+    }
+    12.5%{
+        cursor: url("keyframes/frame_02_delay-0.1s.gif") 46 64, auto;
+    }
+    18.75%{
+        cursor: url("keyframes/frame_03_delay-0.1s.gif") 46 64, auto;
+    }
+    25%{
+        cursor: url("keyframes/frame_04_delay-0.1s.gif") 46 64, auto;
+    }
+    31.25%{
+        cursor: url("keyframes/frame_05_delay-0.1s.gif") 46 64, auto;
+    }
+    37.5%{
+        cursor: url("keyframes/frame_06_delay-0.1s.gif") 46 64, auto;
+    }
+    43.75%{
+        cursor: url("keyframes/frame_07_delay-0.1s.gif") 46 64, auto;
+    }
+    50%{
+        cursor: url("keyframes/frame_08_delay-0.1s.gif") 46 64, auto;
+    }
+    56.25%{
+        cursor: url("keyframes/frame_09_delay-0.1s.gif") 46 64, auto;
+    }
+    62.5%{
+        cursor: url("keyframes/frame_10_delay-0.1s.gif") 46 64, auto;
+    }
+    68.75%{
+        cursor: url("keyframes/frame_11_delay-0.1s.gif") 46 64, auto;
+    }
+    75%{
+        cursor: url("keyframes/frame_12_delay-0.1s.gif") 46 64, auto;
+    }
+    81.25%{
+        cursor: url("keyframes/frame_13_delay-0.1s.gif") 46 64, auto;
+    }
+    87.5%{
+        cursor: url("keyframes/frame_14_delay-0.1s.gif") 46 64, auto;
+    }
+    93.75%{
+        cursor: url("keyframes/frame_15_delay-0.1s.gif") 46 64, auto;
+    }
+    100%{
+        cursor: url("keyframes/frame_15_delay-0.1s.gif") 46 64, auto;
+    }
+}
